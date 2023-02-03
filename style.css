@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 100px;
+    height: calc(100vh / 50);
+    position: relative;
+
+}
+
+.rectangle.linen {
+    position: relative;
+    background-color: #F3E9DC;
+}
+
+.rectangle.champagne {
+    position: relative;
+    background-color: #E7CFBD;
+}
+
+.rectangle.tumbleweed {
+    position: relative;
+    background-color: #DAB49D;
+}
+
+.rectangle.antique {
+    position: relative;
+    background-color: #CD9D78;
+}
+
+.rectangle.raw {
+    position: relative;
+    background-color: #C08552;
+}
+
+.rectangle.brown {
+    position: relative;
+    background-color: #A56E45;
+}
+
+.rectangle.russet {
+    position: relative;
+    background-color: #895737;
+}
+
+.rectangle.van {
+    position: relative;
+    background-color: #74442D;
+}
+
+.rectangle.bole {
+    position: relative;
+    background-color: #6D4337;
+}
+
+.rectangle.caput {
+    position: relative;
+    background-color: #5E3023;
+}
+
+.me {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    color: white;
+    vertical-align: middle;
+    width: 100%;
+    margin-right: 200px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    vertical-align: middle;
+    width: 90%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+img {
+    height: 85%;
+    margin: auto;
+    /*border: 4px  solid #895737;*/
+    box-shadow: 9px 10px 3px 0px #a56f4586;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+h1 {
+    color: #C08552;
+    font-size: 64px;
+    font-family: math;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans Symbols 2', sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+li {
+    list-style: none;
+    padding-right: 10px;
+}
